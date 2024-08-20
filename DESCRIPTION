@@ -1,0 +1,15 @@
+Package: project
+Title: Mississippi Risk Maps Data Package
+Version: 0.0.0.9000
+Authors@R: 
+    person("Alex", "Karman", , "alex.karman@virtualinertiaailabs.com", role = c("aut", "cre"))
+Description: This is a data package which contains Simple Features (sf package) 
+  spatial data for the state of Mississippi for teaching risk-relaed analysis. 
+  The layers include data from the Naional Levee Database, 
+  the National Bridge Inventory, the National Inventory of Dams,
+  public schools, police stations, fire departmenst, hospital service areas,
+  cell phone tower locations, etc. Spatial data are all ESPG 4326.
+License: `use_mit_license()`
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2

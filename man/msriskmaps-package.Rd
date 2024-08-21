@@ -6,7 +6,7 @@
 \alias{msriskmaps-package}
 \title{msriskmaps: Mississippi Risk Maps Data Package}
 \description{
-This is a data package which contains Simple Features (sf package) spatial data for the state of Mississippi for teaching risk-relaed analysis. The layers include data from the Naional Levee Database, the National Bridge Inventory, the National Inventory of Dams, public schools, police stations, fire departmenst, hospital service areas, cell phone tower locations, etc. Spatial data are all ESPG 4326.
+This is a data package which contains Simple Features (sf package) spatial data for the state of Mississippi for teaching risk-related analysis. The layers include data from the Naional Levee Database, the National Bridge Inventory, the National Inventory of Dams, public schools, police stations, fire departmenst, hospital service areas, cell phone tower locations, etc. Spatial data are all ESPG 4326.
 }
 \author{
 \strong{Maintainer}: Alex Karman \email{alex.karman@virtualinertiaailabs.com}

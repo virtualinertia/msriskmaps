@@ -4,7 +4,7 @@ Version: 0.0.0.9000
 Authors@R: 
     person("Alex", "Karman", , "alex.karman@virtualinertiaailabs.com", role = c("aut", "cre"))
 Description: This is a data package which contains Simple Features (sf package) 
-  spatial data for the state of Mississippi for teaching risk-relaed analysis. 
+  spatial data for the state of Mississippi for teaching risk-related analysis. 
   The layers include data from the Naional Levee Database, 
   the National Bridge Inventory, the National Inventory of Dams,
   public schools, police stations, fire departmenst, hospital service areas,

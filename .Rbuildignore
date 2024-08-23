@@ -4,3 +4,6 @@
 ^project.*\.tar\.gz$
 ^project.*\.tgz$
 ^data-raw$
+^msriskmaps\.Rcheck$
+^msriskmaps.*\.tar\.gz$
+^msriskmaps.*\.tgz$

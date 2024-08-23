@@ -5,3 +5,6 @@
 project.Rcheck/
 project*.tar.gz
 project*.tgz
+msriskmaps.Rcheck/
+msriskmaps*.tar.gz
+msriskmaps*.tgz

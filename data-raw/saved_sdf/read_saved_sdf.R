@@ -1,23 +1,23 @@
 # Read police hospitals fire departments schools etc
 
 # 1 cell_tower_sdf
+# rename consistently
+ms_cell_tower_sdf <- readRDS("data-raw/saved_sdf/cell_tower_sdf.rds")
 
-cell_tower_sdf <- readRDS("data-raw/saved_sdf/cell_tower_sdf.rds")
+usethis::use_data(ms_cell_tower_sdf, overwrite = TRUE)
 
-usethis::use_data(cell_tower_sdf, overwrite = TRUE)
-
-usethis::use_r("cell_tower_sdf")
+usethis::use_r("ms_cell_tower_sdf")
 
 # ~~~~~~~~~~~~~~~~~~
 
 
 # 2 ms_counties_sdf
+# skip this one bcause ms_counties_tigris_sdf is better.
+# ms_counties_sdf <- readRDS("data-raw/saved_sdf/ms_counties_sdf.rds")
 
-ms_counties_sdf <- readRDS("data-raw/saved_sdf/ms_counties_sdf.rds")
+# usethis::use_data(ms_counties_sdf, overwrite = TRUE)
 
-usethis::use_data(ms_counties_sdf, overwrite = TRUE)
-
-usethis::use_r("ms_counties_sdf")
+# usethis::use_r("ms_counties_sdf")
 
 # ~~~~~~~~~~~~~~~~~~
 
@@ -164,4 +164,14 @@ usethis::use_r("us_state_bbox_sdf")
 
 # ~~~~~~~~~~~~~~~~~~
 
+# RUN AT END BECAUSE MSSISSIPPI WAS NOT SUBSET
+
+ms_nid_dams_sdf <- nid_dams_sdf %>%
+  filter(stateKey == "MS")
+# 6,093 insad of 91,687
+
+
+usethis::use_data(ms_nid_dams_sdf, overwrite = TRUE)
+
+usethis::use_r("ms_nid_dams_sdf")
 

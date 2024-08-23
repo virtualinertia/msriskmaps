@@ -3,7 +3,7 @@
 \docType{data}
 \name{usa_ms_nld_leveed_area_usace_sdf}
 \alias{usa_ms_nld_leveed_area_usace_sdf}
-\title{Mississippi Leveed Area (USACE)}
+\title{Leveed Area (USACE)}
 \format{
 SF tibble. 1,644 X 28 MULTIPOLYGON
 All columns except geometry, ALAND and AWATER are chr because all properties are Strings in the NLD WFS.
@@ -16,8 +16,9 @@ National Levee Database OGC Web Feature Service (WFS)
 usa_ms_nld_leveed_area_usace_sdf
 }
 \description{
-Mississippi Leveed Area (USACE) data from National Levee Database.
+Leveed Area (USACE) data from National Levee Database.
 The area of a floodplain from which flood water is excluded by the levee system.
+A MS only subset exists. See ms_nld_leveed_area_usace_sdf.
 }
 \details{
 The official data catalog is at \url{https://levees.sec.usace.army.mil/data-services/dictionary/}.

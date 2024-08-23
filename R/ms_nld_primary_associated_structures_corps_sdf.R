@@ -1,10 +1,8 @@
-#' @title Leveed Area (USACE)
+#' @title Mississippi Primary Associated Structures (USACE)
 #'
-#' @description Leveed Area (USACE) data from National Levee Database.
-#' The area of a floodplain from which flood water is excluded by the levee system.
-#' A MS only subset exists. See ms_nld_leveed_area_usace_sdf.
+#' @description Mississippi Primary Associated Structures (USACE) data from National Levee Database.
 #'
-#' @format SF tibble. 1,644 X 28 MULTIPOLYGON
+#' @format SF tibble. 20 X 19 POINT.
 #' All columns except geometry, ALAND and AWATER are chr because all properties are Strings in the NLD WFS.
 #'
 #' @details
@@ -18,4 +16,4 @@
 #' @source
 #' National Levee Database OGC Web Feature Service (WFS)
 #' \url{https://levees.sec.usace.army.mil/mapserver/public/ows}
-"usa_ms_nld_leveed_area_usace_sdf"
+"ms_nld_primary_associated_structures_corps_sdf"

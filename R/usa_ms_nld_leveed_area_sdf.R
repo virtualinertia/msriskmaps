@@ -1,7 +1,8 @@
-#' @title Mississippi Leveed Area
+#' @title USA Leveed Area
 #'
-#' @description Mississippi Leveed Area data from National Levee Database.
+#' @description USA Leveed Area data from National Levee Database.
 #' The area of a floodplain from which flood water is excluded by the levee system.
+#' A MS only subset exists. See ms_nld_leveed_area_sdf.
 #'
 #' @format SF tibble. 6,823 X 28 MULTIPOLYGON
 #' All columns except geometry, ALAND and AWATER are chr because all properties are Strings in the NLD WFS.

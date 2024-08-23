@@ -1,13 +1,17 @@
 
 # Read the NLD Layers
 
+library(tidyverse)
+library(sf)
+
+# Do no use this one -- inconsistently named
 # 1 boreholes_in_mississippi_sdf
 
-boreholes_in_mississippi_sdf <- readRDS("data-raw/saved_sdf_nld_ms_layers/boreholes_in_mississippi_sdf.rds")
+# boreholes_in_mississippi_sdf <- readRDS("data-raw/saved_sdf_nld_ms_layers/boreholes_in_mississippi_sdf.rds")
 
-usethis::use_data(boreholes_in_mississippi_sdf, overwrite = TRUE)
+# usethis::use_data(boreholes_in_mississippi_sdf, overwrite = TRUE)
 
-usethis::use_r("boreholes_in_mississippi_sdf")
+# usethis::use_r("boreholes_in_mississippi_sdf")
 
 # ~~~~~~~~~~~~~~~~~~
 
@@ -341,4 +345,5 @@ usethis::use_r("usa_ms_nld_leveed_area_usace_sdf")
 
 # ~~~~~~~~~~~~~~~~~~
 
+devtools::document()
 

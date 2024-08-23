@@ -1,0 +1,19 @@
+#' @title Mississippi State Boundary
+#'
+#' @description Mississippi State boundary from U.S. Census TIGER database.
+#' Used for subsetting NLD, NID, NBI and other features from nation-wide layers.
+#'
+#' @format SF tibble. 1 X 15 MULTIPOLYGON
+#'
+#' @details
+#' The official NLD data catalog is at \url{https://levees.sec.usace.army.mil/data-services/dictionary/}.
+#' A Shinylive data catalog app is availble at \url{https://virtual-inertia-nld-data-catalog.netlify.app/}.
+#' Consider readr::type_convert() or dplyr::mutate_at() or mutate_if() for char column
+#' conversion to number or integer.
+#' All NLD WFS layers are nationwide. Mississippi data were subset using intersection
+#' with the U.S. Census TIGER State boundary for Mississippi (2023).
+#'
+#' @source
+#' U.S. Census TIGER Lines
+#' \url{https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html}
+"ms_state_tigris_sdf"
